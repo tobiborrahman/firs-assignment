@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header starts */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/banner/banner1.png");
+  background-size: cover;
+}
+
+.banner-desc {
+  text-align: right;
+  padding-top: 180px;
+  padding-right: 120px;
+}
+
+.banner-title {
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.banner-para {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 10px 0;
+  color: rgb(129, 131, 132);
+  line-height: 1.7em;
+}
+
+.banner-btn {
+  width: 120px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  background-color: #f15b22;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+/* header ends */
+
+/* Failure section style starts */
+.failure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 100px;
+}
+
+.failure-img {
+  width: 500px;
+  height: 600px;
+}
+
+.failure-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.failure-list {
+  text-align: left;
+}
+
+.failure-para {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.list {
+  color: rgb(36, 141, 111);
+  font-weight: 800;
+  padding-right: 5px;
+}
+/* Failure section style ends */
+
+/* plan style starts */
+.plan {
+  margin: 100px 0;
+}
+.plan-title {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin: 70px 0 40px 0;
+}
+
+.plan-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.card-img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  margin: 20px 0;
+}
+
+.card-para {
+  font-size: 15px;
+  font-weight: 500;
+}
+/* plan style ends */
+
+/* positivity styles start */
+.positive-sec {
+  margin: 130px auto;
+}
+
+.positive-title {
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.positive {
+  width: 900px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 190px;
+}
+
+.pos-card {
+  width: 180px;
+  height: 320px;
+  border: 1px solid royalblue;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(135deg, #f15b22, grey);
+  transition: background-color 2s ease-in-out;
+}
+.pos-card:hover{
+    background-image: linear-gradient(135deg, grey, #f15b22);;
+}
+
+.pos-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.pos-para {
+  text-align: justify;
+  margin: 15px auto;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.pos-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.boost-btn {
+  width: 100px;
+  height: 40px;
+  background-color: #f15b22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* shadow section style */
+.shadow {
+  width: 900px;
+  height: 250px;
+  border: none;
+  margin: 100px auto;
+  background-image: linear-gradient(
+      90deg,
+      rgb(241, 91, 34, 0.9) 0%,
+      rgba(241, 91, 34, 0.1) 100%
+    ),
+    url("images/watch.png");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.shadow-title {
+  font-weight: 600;
+  font-size: 35px;
+  padding: 45px 20px 20px 40px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.shadow-btn {
+  width: 130px;
+  height: 50px;
+  background-color: white;
+  margin: 0px 20px 20px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(241, 91, 34, 0.9);
+}
+
+/* Footer starts here */
+
+.footer-one {
+  margin-top: 70px;
+  width: 100%;
+  height: 477px;
+  background: rgb(12, 12, 12);
+}
+
+.footer-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.connect {
+  margin-top: 90px;
+}
+
+.message {
+  margin-top: 90px;
+}
+
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: white;
+}
+
+.footer-para {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  color: white;
+  margin-top: 10px;
+}
+
+.fa-brands {
+  color: white;
+  background: none;
+  margin: 20px 20px 0 0;
+  font-size: 20px;
+}
+
+.email {
+  width: 240px;
+  height: 50px;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: 0.7px solid white;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background: none;
+}
+
+.subscribe {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-btn {
+  width: 140px;
+  height: 50px;
+  background-color: white;
+  margin: 0px 20px 20px 0px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(241, 91, 34, 0.9);
+}
