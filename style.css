@@ -147,12 +147,13 @@ ul {
 .pos-card {
   width: 180px;
   height: 320px;
-  border: 1px solid royalblue;
+  border: none;
   text-align: center;
   padding: 30px;
   border-radius: 5px;
-  background-image: linear-gradient(135deg, #f15b22, grey);
-  transition: background-color 2s ease-in-out;
+  box-shadow: 5px 5px 15px rgb(233, 227, 227), 
+                -5px -5px 15px rgb(238, 233, 233);
+  transition: background 1s linear;
 }
 .pos-card:hover{
     background-image: linear-gradient(135deg, grey, #f15b22);;
@@ -180,8 +181,8 @@ ul {
 .boost-btn {
   width: 100px;
   height: 40px;
-  background-color: #f15b22;
-  color: white;
+  background-color: rgb(207, 197, 197);
+  color: #f15b22;
   border: none;
   border-radius: 5px;
   margin: 10px 0;
